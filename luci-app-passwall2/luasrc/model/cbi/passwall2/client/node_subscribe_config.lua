@@ -325,4 +325,7 @@ for k, v in pairs(nodes_table) do
 	end
 end
 
+o = s:option(Flag, "hwid", translate("HWID"))
+o.default = 0
+
 return m
